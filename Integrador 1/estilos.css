@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+p, a, li, h1, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* ESTA ES LA CABECERA*/
+.cabecera{
+	overflow: hidden;
+	background-image: url('imagenes/Pasta-seca-contra-pasta-fresca.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 40%;
+
+}
+.cabecera img{
+	height: 200px;
+	display: block;
+	color: white;
+	margin: auto;
+}
+
+/* .cabecera h1{
+	text-align: center;
+	font-size: 28px;
+	color: #F69F2C;
+}
+
+.cabecera h3{
+	font-size: 25px;
+	text-align: center;
+	color:dodgerblue;
+} */
+
+
+/* AQUI COMIENZA EL MENU*/
+.texto{
+	font-size: 25px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu{
+	background: #333;
+	overflow: hidden;
+	width: 100%;
+	max-width: 6000px;
+	
+}
+
+ul,ol,dl,p {
+	font-size: 1rem;
+}
+  
+li, p {
+	line-height: 1rem;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	padding-inline-start: 2rem;
+}
+.menu ul li a:hover{
+	color: #F69F2C;
+}
+
+/* AQUI COMIENZA EL CUERPO */
+
+.iconos{
+	overflow: hidden;
+	margin:20px 0px ;
+}
+.iconos h3{
+	text-align: center;
+	color: #444444;
+	font-size: 26px;
+}
+.iconos div{
+	width: 20%;
+	float:left;
+	overflow:hidden;
+}
+
+.iconos div img{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+.iconos div p{
+	text-align: center;
+	color: cornflowerblue;
+}
+
+.bienvenida{	
+	background: #999;
+	padding: 20px;
+		
+}
+.bienvenida p{
+	text-align: center;	
+	color: #ffffff;
+	margin: 20px 30px ;
+}
+
+
+.parallax{
+	width: 100%;
+	height: 150px;
+	background: url(imagenes/fondo.jpg);
+	background-size: 200%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;	
+	overflow: hidden;
+}
+.parallax a{
+	display: block;
+	padding: 10px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	background: #000000;
+	color: #ffffff;
+	margin: 50px auto 50px auto;
+	transition: 1s;
+}
+.parallax a:hover{
+	background: orange;
+	color: #000000;
+}
+
+/* PIE DE PAGINA */
+.piedepagina{
+	background: #333; 
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
